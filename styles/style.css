@@ -1,0 +1,68 @@
+/* Dark Mode */
+body {
+  background-color: #121212; /* Warna latar belakang hitam */
+  color: #f0f0f0; /* Warna teks putih */
+}
+
+/* Efek transparansi pada latar belakang */
+header::before {
+  background-color: rgba(0, 0, 0, 0.7); /* Transparansi 70% */
+}
+
+/* Efek hover pada navigasi */
+nav ul li:hover {
+  transform: translateY(-3px);
+}
+
+/* Efek hover pada tombol */
+.btn-primary:hover {
+  background-color: #003366; /* Warna latar belakang yang lebih gelap */
+}
+
+/* Gaya teks pada judul dan paragraf */
+h1,
+h2 {
+  color: #f0f0f0; /* Warna teks putih */
+}
+
+p {
+  color: #c0c0c0; /* Warna teks abu-abu */
+}
+
+/* Efek hover pada judul */
+h1:hover {
+  text-decoration: none; /* Hilangkan garis bawah saat dihover */
+}
+
+/* Efek hover pada tombol kembali ke atas */
+.back-to-top:hover {
+  background-color: #003366; /* Warna latar belakang yang lebih gelap */
+}
+
+/* Animasi pada judul */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Efek transisi pada gambar */
+.gallery img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+/* Efek hover pada gambar */
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+/* Gaya teks pada tombol kembali ke atas */
+.back-to-top {
+  font-size: 18px; /* Ukuran teks yang lebih besar */
+  font-weight: bold; /* Tebalkan teks */
+}
